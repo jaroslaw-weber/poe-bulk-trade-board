@@ -13,6 +13,7 @@ interface BoardPost {
   username: string;
   type: string;
   timestamp: Date
+  tabName: string;
 }
 const essencesData1: BoardPost = {
 	id: 1,
@@ -21,7 +22,8 @@ const essencesData1: BoardPost = {
     "red essennce x 3, blue essences x 3, green essences x 3, yellow essences",
   username: "JamesGordon",
   type: "essence",
-  timestamp: new Date()
+  timestamp: new Date(),
+  tabName: "essences"
   
 };
 const postListData : BoardPost[]= [];
@@ -40,6 +42,7 @@ export default function Home() {
 
 		<p className="px-3 text-right text-sm">username: {x.username}</p>
 		<button className='rounded bg-blue-400 py-3 text-white'>whisper</button>
+		<p className="text-sm text-gray-500">"WTB your tab: {x.tabName}"</p>
       </div>
     );
   });
