@@ -54,7 +54,7 @@ export default function Home() {
 
       <main className="bg-slate-100 p-4">
 		<p className="text-3xl text-center pt-4 pb-10 font-serif underline">essences</p>
-        <div className='grid grid-cols-4 gap-6'>
+        <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-6'>
           {postList}
         </div>
       </main>
