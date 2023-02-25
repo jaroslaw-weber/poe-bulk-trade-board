@@ -24,7 +24,7 @@ const essencesData1: BoardPost = {
   timestamp: new Date()
   
 };
-const postListData = [];
+const postListData : BoardPost[]= [];
 for(let i = 0; i < 10; i++) {
 	postListData.push(essencesData1);
 }
