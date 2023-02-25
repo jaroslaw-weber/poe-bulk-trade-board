@@ -42,7 +42,7 @@ export default function Home() {
 
 		<p className="px-3 text-right text-sm">username: {x.username}</p>
 		<button className='rounded bg-blue-400 py-3 text-white'>whisper</button>
-		<p className="text-sm text-gray-500">"WTB your tab: {x.tabName}"</p>
+		<p className="text-sm text-gray-500">WTB your tab: {x.tabName}</p>
       </div>
     );
   });
